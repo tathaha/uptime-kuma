@@ -38,6 +38,8 @@ const TechulusPush = require("./notification-providers/techulus-push");
 const Telegram = require("./notification-providers/telegram");
 const Webhook = require("./notification-providers/webhook");
 const WeCom = require("./notification-providers/wecom");
+const GoAlert = require("./notification-providers/goalert");
+const SMSManager = require("./notification-providers/smsmanager");
 
 class Notification {
 
@@ -80,6 +82,7 @@ class Notification {
             new RocketChat(),
             new SerwerSMS(),
             new Signal(),
+            new SMSManager(),
             new Slack(),
             new SMTP(),
             new Stackfield(),
@@ -88,6 +91,7 @@ class Notification {
             new Telegram(),
             new Webhook(),
             new WeCom(),
+            new GoAlert(),
         ];
 
         for (let item of list) {
