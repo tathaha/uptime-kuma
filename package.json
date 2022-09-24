@@ -156,7 +156,7 @@
         "v-pagination-3": "~0.1.7",
         "vite": "~3.1.0",
         "vite-plugin-compression": "^0.5.1",
-        "vue": "^3.2.38",
+        "vue": "next",
         "vue-chart-3": "3.0.9",
         "vue-confirm-dialog": "~1.0.2",
         "vue-contenteditable": "~3.0.4",
